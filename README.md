@@ -21,3 +21,12 @@ Make sure these are installed on your computer.
 * bs4 module
 * requests modlue
 * time module
+
+Download and Navigate to:
+>> cd src
+>> cd Amazon Product Price Tracker
+
+To Run the Script
+>> python tracker_amazon.py
+
+Enter the URL of Amazon product and your expected Price.
