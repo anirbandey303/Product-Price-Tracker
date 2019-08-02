@@ -30,3 +30,5 @@ To Run the Script
 >> python tracker_amazon.py
 
 Enter the URL of Amazon product and your expected Price.
+Better to Copy the link.
+Let the script running. It will check every 24 hours.
