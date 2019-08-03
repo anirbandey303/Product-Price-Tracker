@@ -49,10 +49,10 @@ def send_mail(pageTitle):
 	server.starttls()
 	server.ehlo()
 	server.login('example@noreply.com', 'rgnskdlerpritwnq')
-	subject = "Product Price fell!"+pageTitle
+	subject = "Product Price fell!"
 	#link = "https://www.amazon.in/JBL-Stealth-Waterproof-Portable-Bluetooth/dp/B07HHHMWQG/ref=br_msw_pdt-9?_encoding=UTF8&smid=A14CZOWI0VEHLG&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=&pf_rd_r=43MCCDEX3SYEMNHPXKHF&pf_rd_t=36701&pf_rd_p=9806b2c4-09c8-4373-b954-bae25b7ea046&pf_rd_i=desktop"
 	link = URL
-	msg = f"Subject:{subject}\n\nHey Price of {pageTitle} fell!!! Click the link blow and purchase it now!!!\n\n{link}\n\n"
+	msg = f"Subject:{subject}\n\nHey Price fell!!! Click the link blow and purchase it now!!!\n\n{link}\n\n"
 	server.sendmail(
 		'example@noreply.com',
 		'alert@gotyourproduct.com',
