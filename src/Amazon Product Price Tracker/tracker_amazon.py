@@ -63,8 +63,9 @@ def send_mail(pageTitle):
 
 #Driver Program
 if __name__ == "__main__":
-	while(True):
-		expectedPrice = int(input("\n\tWhat price are you expecting or looking for:\t₹ "))
-		URL = input('\n\tInput the Amazon link here:\n\n')
+	expectedPrice = int(input("\n\tWhat price are you expecting or looking for:\t₹ "))
+	URL = input('\n\tInput the Amazon link here:\n\n')
+	while(True):		
 		checkPrice()
-		time.sleep(1*24*60*60) #Check once per day
+		#time.sleep(1*24*60*60) #Check once per day
+		time.sleep(30) #Check once per 30 sec
