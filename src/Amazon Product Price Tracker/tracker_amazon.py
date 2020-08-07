@@ -67,5 +67,5 @@ if __name__ == "__main__":
 	URL = input('\n\tInput the Amazon link here:\n\n')
 	while(True):		
 		checkPrice()
-		#time.sleep(1*24*60*60) #Check once per day
-		time.sleep(30) #Check once per 30 sec
+		time.sleep(1*24*60*60) #Check once per day
+		#time.sleep(30) #Check once per 30 sec

@@ -1,0 +1,2 @@
+#Interface
+#declare function check()
